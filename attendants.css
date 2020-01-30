@@ -1,0 +1,205 @@
+.topnavn{
+    display: flex;
+    text-align: center;
+}
+a{
+    padding:50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+h1{
+    text-align: center;
+    font-size:60px;
+    font-weight: 700;
+}
+#securityguard{
+    background-image:url(./lin.jpg ) ;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#shambaboy{
+    background-image: url(./shamba.jpeg) ;
+    height: 400px;
+    width:600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: row;
+    
+}
+
+
+/*.float{
+    float:right;
+    display: flex;
+    flex-direction: column; 
+    
+}*/
+section{
+    display:flex;
+    flex-direction: column-reverse;
+}
+#houselps{
+    display:flex;
+    flex-direction: row;
+}
+.househelps{
+    background-image: url(./home.jpeg) ;
+    height: 400px;
+    width: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: larger;
+}
+#cleaners{
+    background-image: url(./clean.jpeg) ;
+    height: 400px;
+    width: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: x-large;
+ 
+}
+#ll{
+    position: absolute;
+    /* text-align:right; */
+    right: 20px;
+    top: 1900px;
+    font-size: larger;
+    font-weight: 100;
+}
+#ku{
+    position: absolute;
+    right: 20px;
+    top: 1000px;
+    font-size: larger;
+    font-weight: 100;
+}
+#sl{
+    position: absolute;
+    right:30px;
+    top: 1500px;
+    font-size:larger;
+    font-weight: 100;
+}
+#tl{
+    text-align: center;
+    font-size: x-large;
+}
+input[type=text],select{
+    width: 30%;
+    padding:14px 20px;
+    margin:8px 0;
+    border-radius: 4px;
+    display:inline-block;
+    justify-content: center;
+}
+input[type=email]{
+    width: 30%;
+    padding:14px 20px;
+    margin:8px 0;
+    border-radius: 4px;
+    display:inline-block;
+    justify-content: center;
+}
+input[type=submit]{
+    width: 30%;
+    padding:14px 20px;
+    margin:8px 0;
+    border-radius: 4px;
+    display:inline-block;
+    justify-content: center;
+    background-color: lawngreen;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F9F9F9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #F1F1F1}
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown:hover .dropbtn {
+    background-color: #3E8E41;
+  }
+  nav{
+    display:flex;
+    height:250px;
+    margin:-10px;
+    padding:0;
+    background-image:url("./house-office-painting-renovations-services-nairobi-kenya.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    text-decoration: none;
+}
+ul{
+    display:flex;
+    margin:40px;
+    padding:5px;
+}
+li{
+    list-style-type: none;
+    margin:10px;
+    /* background-color: blanchedalmond; */
+}
+li a:hover{
+    background-color: floralwhite;
+    padding:20px;
+}
+nav>ul>li>{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 300;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(221, 8, 8);
+}
+
+footer{
+    margin:0;
+    padding:0;
+    background-color: darkolivegreen;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:0;
+    margin:0;
+}
+.fa{
+    padding:30px;
+    size:50px;
+    color:blue;
+}
+
+  
