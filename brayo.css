@@ -1,0 +1,26 @@
+
+*{
+    font-family: 'Courgette', cursive;
+}
+#job0{
+    background-image: url("https://bit.ly/2vlvHNw");
+    background-size: cover;
+    background-repeat: no-repeat;
+background-attachment: fixed;
+}
+nav li {
+    display:inline-block;
+font-size: xx-large;
+font-weight: 800;
+font-style: italic;
+margin:7%;
+}
+body{
+    background-color: darkolivegreen;
+}
+h1{
+
+    font-size:xx-large;
+    font-weight: 900;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', G
